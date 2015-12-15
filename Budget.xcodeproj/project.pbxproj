@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444E9AC81C202AC1007EBF88 /* ExpenseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444E9AC61C202AC1007EBF88 /* ExpenseTableView.swift */; };
+		444E9AC91C202AC1007EBF88 /* ExpenseTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444E9AC71C202AC1007EBF88 /* ExpenseTableView.xib */; };
+		444E9ACB1C20895B007EBF88 /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444E9ACA1C20895B007EBF88 /* ExpenseListView.swift */; };
+		444E9ACD1C208972007EBF88 /* ExpenseList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444E9ACC1C208972007EBF88 /* ExpenseList.xib */; };
 		44BFE65A1C1B037500042578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BFE6591C1B037500042578 /* AppDelegate.swift */; };
-		44BFE65C1C1B037500042578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BFE65B1C1B037500042578 /* ViewController.swift */; };
+		44BFE65C1C1B037500042578 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BFE65B1C1B037500042578 /* AddExpenseViewController.swift */; };
 		44BFE65F1C1B037500042578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BFE65D1C1B037500042578 /* Main.storyboard */; };
 		44BFE6621C1B037500042578 /* Budget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44BFE6601C1B037500042578 /* Budget.xcdatamodeld */; };
 		44BFE6641C1B037500042578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BFE6631C1B037500042578 /* Assets.xcassets */; };
 		44BFE6671C1B037500042578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BFE6651C1B037500042578 /* LaunchScreen.storyboard */; };
+		44BFE66F1C1C14F500042578 /* ExpenseOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BFE66E1C1C14F500042578 /* ExpenseOverviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		444E9AC61C202AC1007EBF88 /* ExpenseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseTableView.swift; sourceTree = "<group>"; };
+		444E9AC71C202AC1007EBF88 /* ExpenseTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpenseTableView.xib; sourceTree = "<group>"; };
+		444E9ACA1C20895B007EBF88 /* ExpenseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		444E9ACC1C208972007EBF88 /* ExpenseList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpenseList.xib; sourceTree = "<group>"; };
 		44BFE6561C1B037500042578 /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BFE6591C1B037500042578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44BFE65B1C1B037500042578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44BFE65B1C1B037500042578 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
 		44BFE65E1C1B037500042578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44BFE6611C1B037500042578 /* Budget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Budget.xcdatamodel; sourceTree = "<group>"; };
 		44BFE6631C1B037500042578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44BFE6661C1B037500042578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44BFE6681C1B037500042578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BFE66E1C1C14F500042578 /* ExpenseOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseOverviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				44BFE6591C1B037500042578 /* AppDelegate.swift */,
-				44BFE65B1C1B037500042578 /* ViewController.swift */,
+				44BFE65B1C1B037500042578 /* AddExpenseViewController.swift */,
 				44BFE65D1C1B037500042578 /* Main.storyboard */,
 				44BFE6631C1B037500042578 /* Assets.xcassets */,
 				44BFE6651C1B037500042578 /* LaunchScreen.storyboard */,
 				44BFE6681C1B037500042578 /* Info.plist */,
 				44BFE6601C1B037500042578 /* Budget.xcdatamodeld */,
+				44BFE66E1C1C14F500042578 /* ExpenseOverviewViewController.swift */,
+				444E9AC61C202AC1007EBF88 /* ExpenseTableView.swift */,
+				444E9AC71C202AC1007EBF88 /* ExpenseTableView.xib */,
+				444E9ACA1C20895B007EBF88 /* ExpenseListView.swift */,
+				444E9ACC1C208972007EBF88 /* ExpenseList.xib */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -125,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444E9ACD1C208972007EBF88 /* ExpenseList.xib in Resources */,
 				44BFE6671C1B037500042578 /* LaunchScreen.storyboard in Resources */,
 				44BFE6641C1B037500042578 /* Assets.xcassets in Resources */,
+				444E9AC91C202AC1007EBF88 /* ExpenseTableView.xib in Resources */,
 				44BFE65F1C1B037500042578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44BFE65C1C1B037500042578 /* ViewController.swift in Sources */,
+				444E9AC81C202AC1007EBF88 /* ExpenseTableView.swift in Sources */,
+				444E9ACB1C20895B007EBF88 /* ExpenseListView.swift in Sources */,
+				44BFE66F1C1C14F500042578 /* ExpenseOverviewViewController.swift in Sources */,
+				44BFE65C1C1B037500042578 /* AddExpenseViewController.swift in Sources */,
 				44BFE65A1C1B037500042578 /* AppDelegate.swift in Sources */,
 				44BFE6621C1B037500042578 /* Budget.xcdatamodeld in Sources */,
 			);
@@ -290,6 +310,7 @@
 				44BFE66D1C1B037500042578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
