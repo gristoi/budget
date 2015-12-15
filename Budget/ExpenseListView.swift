@@ -43,8 +43,8 @@ class ExpenseListView: UIView {
     func configureContainer (){
         let boundaryWidth = UIScreen.mainScreen().bounds.size.width
         container.addBoundaryWithIdentifier("upper", fromPoint: CGPointMake(0, 0), toPoint: CGPointMake(boundaryWidth,0))
-        let boundaryHeight = UIScreen.mainScreen().bounds.size.height
-        container.addBoundaryWithIdentifier("lower", fromPoint: CGPointMake(0, boundaryHeight - 5), toPoint: CGPointMake(boundaryWidth, boundaryHeight - 5))
+//        let boundaryHeight = UIScreen.mainScreen().bounds.size.height
+//        container.addBoundaryWithIdentifier("lower", fromPoint: CGPointMake(0, boundaryHeight - 5), toPoint: CGPointMake(boundaryWidth, boundaryHeight - 5))
     }
     
     func handlePan (pan:UIPanGestureRecognizer){
